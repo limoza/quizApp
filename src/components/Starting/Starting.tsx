@@ -3,7 +3,7 @@ import { LinkButton } from "../common/Button";
 
 export const Start = () => {
   return (
-    <div className="min-h-[100svh] min-h-screen flex flex-col ">
+    <div className="min-h-[100svh] flex flex-col ">
       <Header>🇩🇪 クレしんクイズだゾ〜！</Header>
       <div className="flex-grow px-5 py-10 flex items-center">
         <div>

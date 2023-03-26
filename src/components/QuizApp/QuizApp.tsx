@@ -45,7 +45,7 @@ export const QuizApp = ({ question }: Props) => {
 
   return (
     <>
-      <div className="min-h-[100svh] min-h-screen flex flex-col ">
+      <div className="min-h-[100svh] flex flex-col ">
         <>
           <Header>第{questionNumber + 1}問</Header>
           {question
