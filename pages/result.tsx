@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import { Start } from "@/components/Starting";
+import { Result } from "@/components/Result";
 
 const Home: NextPage = () => {
-  return <Start />;
+  return <Result />;
 };
 
 export default Home;
