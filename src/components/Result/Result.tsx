@@ -15,9 +15,16 @@ export const Result = () => {
       ? "good"
       : resultScore === 10
       ? "best"
-      : "";
+      : "bad";
 
-  const constants: {} = {
+  type Constants = {
+    [key: string]: {
+      text: string;
+      emoji: string;
+    };
+  };
+
+  const constants: Constants = {
     bad: {
       text: "イチから学び直すんだゾ〜！",
       emoji: "🙅‍♂️",
