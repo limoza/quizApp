@@ -48,12 +48,12 @@ export const Result = () => {
       <Header>🇩🇪 結果だゾ〜！</Header>
       <div className="flex-grow px-5 py-10 flex items-center">
         <div className="text-center">
-          <p className="text-[calc((100vw-2.5rem)/10)] mb-5">
+          <p className="text-[calc((100vw-4rem)/10)] mb-5">
             {constants[rank]["emoji"].repeat(10)}
           </p>
           <p className="text-xl font-bold">得点は{resultScore}点です！</p>
           <p className="text-xl font-bold">{constants["bad"]["text"]}</p>
-          <p className="text-[calc((100vw-2.5rem)/10)] mt-5">
+          <p className="text-[calc((100vw-4rem)/10)] mt-5">
             {constants[rank]["emoji"].repeat(10)}
           </p>
         </div>
