@@ -47,7 +47,7 @@ export const Result = () => {
     <div className="min-h-[100svh] flex flex-col ">
       <Header>🇩🇪 結果だゾ〜！</Header>
       <div className="flex-grow px-5 py-10 flex items-center">
-        <div className="text-center">
+        <div className="text-center w-full">
           <p className="text-[calc((100vw-4rem)/10)] mb-5">
             {constants[rank]["emoji"].repeat(10)}
           </p>
